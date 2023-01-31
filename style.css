@@ -1,0 +1,1394 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+main {
+	background-image: url('images/Texture.png');
+	
+}
+header {
+	width: 100%;
+	background-color: #c87e6b;
+	padding: 27px 0;
+}
+.container {
+	width: 1330px;
+	margin: auto; 
+	overflow: auto;
+}
+.logo {
+	width: 150px;
+	height: 45px;
+	background-image: url('images/Your logo here.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-y: 0px;
+	float: left;
+	margin-left: 30px;
+}
+nav ul li, .sign-in {
+	
+	margin-left: 70px;
+	float: left;
+	margin-top: 10px;	
+}
+.sign-in {
+	border-radius: 17px;
+	background-color: #c87e6b;
+	border: 2px solid #e9e5da;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #e7e4db;
+	font-weight: 800;
+	font-family: "Montserrat";
+	text-align: center;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	color: #e7e4db;
+	font-weight: 800;
+	font-family: "Montserrat";
+	text-align: center;
+}
+nav {
+	margin-left: 200px;
+}
+.icons {
+	float: right;
+}
+.icon-nav {
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+	border-radius: 4px;
+	color: #e9e5da;
+	margin-right: 35px;
+}
+#mobile-menu {
+	display: none;
+}
+.mobile-menu-container {
+	position: fixed;
+	right: 25px;
+	top: 170px;
+	
+	background-color: #c87e6b;
+	width: 0;
+	transition: width 1s;
+	overflow: hidden;
+}
+#for-hide-menu:checked + .mobile-menu-container {
+	width: 150px;
+}
+.head-section {
+	width: 100%;
+	background-color: hsl(48deg 22% 87%);
+}
+.large {
+	width: 50%;
+	height: 805px;
+	float: left;
+	background-image:  url('images/Leafs 1.png'), url('images/Leafs 2.png');
+	background-position:   left -50px bottom -150px, right 100px top 100px ;
+	background-repeat: no-repeat;
+}
+.large-header {
+	font-size: 58px;
+	letter-spacing: 1px;
+	line-height: 53px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-top: 200px;
+}
+.subtitle {
+	font-size: 25px;
+	line-height: 97px;
+	color: #765a33;
+	font-weight: 600;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+}
+.some-text {
+	
+	font-size: 25px;
+	line-height: 29px;
+	color: #765a33;
+	font-weight: 400;
+	font-family: "Josefin Slab";
+	text-align: center;
+}
+.for-button-shop {
+	text-align: center;
+	margin-top: 50px;
+}
+.button-shop {
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	border-radius: 25px;
+	background-color: #787878;
+	padding: 6px 20px;
+	text-align: center;
+	border: none;
+	
+}
+.for-shopping-button {
+	text-decoration: none;
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+}
+.for-shopping-button:hover, .no-border:hover {
+	border-radius: 25px;
+	background-color: #787878;
+	padding: 6px 20px;
+	color: #484a4b;
+	
+}
+.no-border {
+	text-decoration: none;
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	margin-left: 45px;
+}
+.large-for-photo {
+	width: 50%;
+	height: 805px;
+	background-image: url('images/Place Your Image Here (Double Click to Edit)1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+.about-us {
+	width: 100%;
+	background-color: #765a33;
+	background-image:  url('images/Leafs 1.png');
+	background-position:  left -50px top -225px;
+	background-repeat: no-repeat;
+}
+.about-us-by-numbers {
+	float: left;
+	text-align: center;
+}
+.by-numbers {
+	font-size: 48px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 160px;
+	margin-bottom: 15px;
+}
+.we-by-nums {
+	font-size: 17px;
+	letter-spacing: 0px;
+	line-height: 9px;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	margin-bottom: 100px;
+	margin-left: 160px;
+}
+.products {
+	width: 100%;
+	background-image:  url('images/Leaf  (1).png '), url('images/Leaf  (2).png '), url('images/Leaf  (3).png '), url('images/Leaf  (4).png ');
+	background-repeat: no-repeat;
+	background-position:  top 100px left 60px, top 100px right 60px, bottom 10px left 150px, bottom 10px right 150px;; 
+}
+.products-header {
+	font-size: 58px;
+	letter-spacing: 1px;
+	line-height: 53px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-top: 140px;
+}
+.products-subtitle {
+	font-size: 25px;
+	line-height: 97px;
+	color: #765a33;
+	font-weight: 500;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	margin-bottom: 140px;
+}
+.for-first-prod {
+	float: left;
+	filter: drop-shadow(0px 7px 9px rgba(0,0,0,0.19));
+	background-color: #e6e3da;
+	margin-right: 45px;
+	transition: 0.5s;
+}
+.pic-bouquet1 {
+	margin-left: 7.5px;
+}
+.flower-bouquet {
+	width: 290px;
+	height: 290px;
+	background-image: url('images/bouquet1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-bouquet {
+	padding: 20px;
+	width: 290px;
+}
+.heart {
+	width: 19px;
+	height: 17px;
+	color: #c87e6b;
+	padding-left: 210px;
+}
+.bouquet-header {
+	font-size: 29px;
+	letter-spacing: 1px;
+	line-height: 27px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-bottom: 10px;
+}
+.bouquet-desc {
+	font-size: 13px;
+	line-height: 17px;
+	color: #765a33;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+	text-align: left;
+}
+.for-bouquet-more {
+	border-radius: 12px;
+	background-color: #454545;
+	font-size: 10px;
+	letter-spacing: 0px;
+	line-height: 10px;
+	color: #e6e3da;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	border: none;
+	padding: 5px 20px;
+	margin-top: 15px;
+}
+.bouquet2 {
+	background-image: url('images/bouquet2.png');
+}
+.bouquet3 {
+	background-image: url('images/bouquet3.png');
+}
+.bouquet4 {
+	background-image: url('images/bouquet4.png');
+	
+}
+.pic-bouquet4 {
+	margin-right: 0;
+}
+.arrows {
+	text-align: center;
+	display: inline-block;
+	margin-left: 606px;
+}
+.back {
+	width: 49px;
+	height: 49px;
+	border-radius: 24px;
+	background-color: #bcbcbc; 
+	margin-top: 60px;
+	text-align: center;
+	float: left;
+	text-align: center;
+}
+.less {
+	font-size: 45px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.next {
+	background-color: #454545;
+	margin-left: 40px;
+	text-align: center;
+}
+.video {
+	width: 100%;
+	background-image: url('images/Leaf 111.png'), url('images/Leaf 222.png'),url('images/Rectangle 1  (1).png'), url('images/Rectangle 1  (2).png');
+	background-position:  top 50px left -80px, bottom right -70px,    150px 660px, top 280px right 150px;
+	background-repeat: no-repeat;
+	padding-bottom: 130px;
+}
+.header-video {
+	font-size: 58px;
+	letter-spacing: 1px;
+	line-height: 53px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-top: 120px;
+}
+.subtitle-video {
+	font-size: 25px;
+	line-height: 97px;
+	color: #765a33;
+	font-weight: 500;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.vid-pic-img {
+	width: 1000px;
+	height: 520px;
+	
+	
+	
+}
+.vid-pic {
+	text-align: center;
+}
+.offer {
+	width: 100%;
+}
+.for-offers {
+	width: 50%;
+	float: left;
+	background-color: #dbc06e;
+	padding: 84px 50px 70px 50px;
+	background-image: url('images/Leaf 8.png'), url('images/Leaf 9.png');
+	background-position: center left 30px, center right 50px;
+	background-repeat: no-repeat;
+}
+.header-offers {
+	text-align: center;
+}
+.button-for-offer {
+	font-size: 27px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #e7e4db;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	border-radius: 22px;
+	background-color: #424242;
+	padding: 3px 20px;
+	border: none;
+	cursor: pointer;
+}
+.percent {
+	font-size: 164px;
+	letter-spacing: 4px;
+	line-height: 148px;
+	color: #424242;
+	font-weight: 900;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+}
+.discount {
+	font-size: 29px;
+	line-height: 29px;
+	color: #424242;
+	font-weight: 600;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+}
+.some-pic-with-flowers {
+	width: 50%;
+	height: 390px;
+	background-image: url('images/some-pic.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.service {
+	width: 100%;
+	background-image:  url('images/Rectangle111 (2).png'), url('images/Rectangle111 (1).png');
+	background-repeat: no-repeat;
+	background-position: 20px 360px, top 30px right 590px;
+	padding-bottom: 100px;
+}
+.roses {
+	width: 60%;
+	float: left;
+	
+	
+	
+	margin-right: 4%;
+}
+.for-roses {
+	width: 166px;
+	height: 115px;
+	background-color: #c87e6b;
+	margin-left: 630px;
+}
+.working-with-roses {
+	width: 678px;
+	height: 580px;
+	background-image: url('images/roses.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	margin: 60px  0 0 50px;
+	
+}
+.some-info {
+	width: 36%;
+	display: inline-block;
+	margin-top: 120px;
+	padding: 120px 20px 200px 20px;
+	background-image: url('images/Leaf  10.png');
+	background-repeat: no-repeat;
+	background-position: top left 30px;
+}
+.info-header {
+	font-size: 58px;
+	letter-spacing: 1px;
+	line-height: 62px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+}
+.information {
+	font-size: 25px;
+	line-height: 29px;
+	color: #765a33;
+	font-weight: 400;
+	font-family: "Josefin Slab";
+}
+.details {
+	width: 100%;
+	/* background-image: url('images/Leaf 12.png'),  url('images/Rectangle111 (1).png'), url('images/Rectangle111 (2).png'); */
+	/* background-repeat: no-repeat; */
+	/* background-position: top -70px right -50px, top 80px right 650px, 20px 400px; */
+	padding-top: 80px;
+}
+.for-some-details {
+	width: 60%;
+	padding-top: 50px;
+	display: inline-block;
+	background-image:  url('images/Rectangle111 (1).png'), url('images/Rectangle111 (2).png') ;
+	background-repeat: no-repeat;
+	background-position: top 80px right 630px, 400px 400px ;
+	padding-bottom: 100px;
+}
+.decorating-roses {
+	background-image: url('images/details.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	
+}
+.about-details {
+	float: left;
+	
+	margin-left: 50px;
+}
+.looking {
+	background-image: url('images/looking.png');
+	background-position: top;
+}
+.lovely-work {
+	background-image: url('images/Leaf big.png'),url('images/Leaf 12.png'), url('images/Rectangle 1  (1).png'), url('images/Rectangle 1  (2).png');
+	background-repeat: no-repeat;
+	background-position: top -50px left -20px, bottom -200px right -50px, top 200px right 580px, 20px 500px;
+	padding-top: 180px;
+	
+}
+.flower-bouquets {
+	padding-bottom: 100px;
+}
+.header-subscribe {
+	font-size: 58px;
+	letter-spacing: 1px;
+	line-height: 62px;
+	color: #484a4b;
+	font-weight: 700;
+	font-family: "Playfair Display";
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.text-subscribe {
+	font-size: 25px;
+	line-height: 29px;
+	color: #484a4b;
+	font-weight: 400;
+	font-family: "Josefin Slab";
+	text-align: center;
+}
+.for-subscribe {
+	background-image:  url('images/Leaf 12.png');
+	background-repeat: no-repeat;
+	background-position: top -220px right -40px;
+	padding-bottom: 50px;
+}
+form {
+	text-align: center;
+	margin-top: 30px;
+}
+form div{
+	margin-top: 20px;
+}
+#name{
+	background-color: #efefef;
+	border: 1.5px solid #b0b0b0;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #bdbdbd;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+	padding: 10px;
+	width: 939px;
+}
+#email{
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #bdbdbd;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+	padding-left: 10px;
+	background-color: #efefef;
+	border: 1.5px solid #b0b0b0;
+	padding: 10px ;
+	width: 939px;
+}
+#message{
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #bdbdbd;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+	padding-left: 10px;
+	background-color: #efefef;
+	border: 1.5px solid #b0b0b0;
+	width: 939px;
+	resize: none;
+}
+#submit {
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 19px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	border-radius: 25px;
+	background-color: #c87e6b;
+	padding: 5px 20px;
+	border: none;
+}
+.ending {
+	background-color: hsl(0deg 0% 25%);
+	overflow: auto;
+	padding-bottom: 50px;
+}
+.about {
+	float: left;
+	padding: 120px 0 120px 50px;
+}
+.header-about {
+	font-size: 38px;
+	letter-spacing: 4px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	margin-bottom: 20px;
+}
+.about-our-team {
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: -1px;
+	line-height: 44px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Montserrat Alternates";
+}
+ul {
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+.what-we-do {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.text-for-socials{
+	font-size: 25px;
+	line-height: 33px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Montserrat Alternates";
+	padding-left: 800px;
+	
+	float: left;
+	margin-right: 50px;
+	text-align: right;
+}
+.facebook{
+	width: 49px;
+	height: 49px;
+	border-radius: 50%;
+	float: left;
+	border: 4px solid #e7e4da;
+}
+.soc-media {
+	width: 12px;
+	height: 25px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.instagram {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.insta {
+	width: 21px;
+	height: 21px;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 11px;
+}
+.youtube {
+	width: 27px;
+	height: 19px;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+
+
+@media screen and (max-width: 1260px){
+	.container {
+		width: 100%;
+		margin: auto; 
+	}
+}
+@media screen and (max-width: 1200px){
+	.container {
+		width: 1000px;
+		margin: auto; 
+	}
+	.about-us-by-numbers {
+		margin-left: 100px;
+	}
+	.products-subtitle {
+		margin-bottom: 50px;
+		
+	}
+	.for-first-prod {
+		width: 40%;
+		margin-bottom: 30px;
+		margin-left: 5%;
+	}
+
+	.heart {
+		padding-left: 350px;
+	}
+	.arrows {
+		margin-left: 490px;
+	}
+	
+	.header-video {
+		margin-top: 70px;
+		font-size: 40px;
+	}
+	.flower-bouquet{
+		width: 100%;
+		
+		height: 395px;
+		background-size: contain;
+	}
+	.bouquet-header {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.bouquet-desc {
+		width: 350px;
+		font-size: 16px;
+	}
+	.for-bouquet-more {
+		font-size: 20px;
+		padding: 10px 15px;
+	}
+	.about-bouquet {
+		width: 395px;
+	}
+	.vid-pic-img{
+		width: 100%;
+		max-width: 900px;
+		height: 500px;
+		margin-left: 50px;	
+	}
+	.video {
+		background-position:  top 50px left -80px, bottom right -70px,    90px 550px, top 240px right 120px;
+	}
+	.working-with-roses{
+	
+		width: 500px;
+	}
+	.service{
+		padding-top: 50px;
+		padding-bottom: 150px;
+		background-position: 20px 390px, top 80px right 650px;
+	}
+	.some-info {
+		padding-bottom: 30px;
+		
+	}
+	.about-details {
+		margin-right: 100px;
+	}
+	.some-info1 {
+		margin-right: 0;
+	}
+	.for-some-details {
+		width: 50%;
+		min-width: 400px;
+		background-position: -20px -40px, top 340px right 138px;
+	}
+	.lovely-work {
+		background-position: top -50px left -20px, bottom -200px right -50px, top 80px right 650px, 10px 360px;
+	}
+	.uncolored-details {
+		display: none;
+	}
+	.for-details {
+		width: 166px;
+		height: 115px;
+		margin-bottom: 50px;
+		background-color: #c87e6b;
+		top: 70px;
+		left: 30px;
+		display: none;
+	}
+	.decorating-roses {
+		margin: 0;
+	}
+	.details{
+		padding-top: 0;
+	}
+	.text-for-socials {
+		padding-left:560px;
+		
+	}
+	.for-socials {
+		margin-left: 50px;
+		float: none;
+		
+	}
+	.about-us-by-numbers {
+		margin-left: 0;
+	}
+	.by-numbers, .we-by-nums {
+		margin-left: 80px;
+	}
+	form {
+		margin-left: 30px;
+	}
+	
+}
+
+@media screen and (max-width: 1000px){
+	.container {
+		width: 95%;
+		margin: auto;
+	}
+	.working-with-roses {
+		width: 500px;
+		margin-right: 30px;
+	}
+	.decorating-roses {
+		width: 500px;
+		margin-left: 30px;
+	}
+	nav ul li, .sign-in {
+		margin-left: 40px;
+	}
+	.vid-pic-img {
+		max-width: 800px;
+	}
+	#name, #email, #message{
+		width: 100%;
+		max-width: 800px;
+		
+	}
+	.info-header {
+		font-size: 40px;
+	}
+	.about-details {
+		margin-right: 70px;
+	}
+	.decorating-roses {
+		width: 400px;
+	}
+	.heart {
+		padding-left: 300px;
+	}
+	.for-first-prod {
+		margin-left: 3%;
+	}
+	.arrows {
+		margin-left: 400px;
+	}
+	.text-for-socials {
+		
+		padding-left: 100px;
+	}
+	.about-us-by-numbers {
+		width: 50%;
+	}
+	.your-company {
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	container {
+		width: 95%;
+		margin: auto; 
+	}
+	.large {
+		padding: 15px;
+	}
+	.some-text {
+		text-align: justify;
+	}
+	.for-some-details, .service {
+		background-image: none;
+	}
+	.flower-bouquet {
+		height: 320px;
+	}
+	.about-bouquet {
+		width: 320px;
+	}
+	.bouquet-desc {
+		width: 300px;
+	}
+	.heart {
+		padding-left: 230px;
+	}
+	.for-bouquet-more {
+		font-size: 16px;
+		padding: 5px 10px;
+	}
+	.about-details {
+		margin-right: 25px;
+	}
+	.working-with-roses {
+		width: 400px;
+
+	}
+}
+@media screen and (max-width: 800px) {
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	#name, #email, #message{
+		width: 100%;
+		max-width:350px;
+		
+	}
+	form {
+		margin-left: 20px;
+	}
+	#mobile-menu {
+		display: block;
+	}
+	.list {
+		display: none;
+	}
+	.button-menu, .icon-shop, .icon-sesion {
+		display: none;
+	}
+	.working-with-roses {
+		margin: 0;
+	}
+	.about-us-by-numbers {
+		margin-left: 0;
+	}
+	.decorating-roses {
+		width: 300px;
+		margin:0;
+	}
+	.large {
+		float: none;
+		width: 100%;
+		background-image: url('images/Place Your Image Here (Double Click to Edit)1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0 0;
+	
+	}
+	.subtitle {
+		color: white;
+	}
+	.some-text {
+		color: white;
+		text-align: left;
+		padding-left: 30px;
+	}
+	.no-border {
+		color: white;
+	}
+	
+	.about-bouquet {
+		width: 300px;
+		
+	}
+	.bouquet-desc {
+		width: 250px;
+		font-size: 15px;
+	}
+	.bouquet-header {
+		font-size: 25px;
+	}
+	.arrows {
+		margin-left: 290px;
+	}
+	.heart {
+		padding-left: 220px;
+	}
+	.information {
+		margin-right:0;
+	}
+	.products {
+		margin-left: 0;
+		background-image: none;
+	}
+	
+	.large-header{
+		margin-top: 0;
+		padding-top: 50px;
+		font-size: 40px;
+		color: white;
+	}
+	.large-for-photo {
+		width: 100%;
+		float: none;
+		display: none;
+	}
+	.products-subtitle {
+		margin-bottom: 50px;
+		line-height: 50px;
+	}
+	.what-we-do {
+		margin-left: 0;
+	}
+	.lovely-work {
+		background-image: none;
+	}
+	.service {
+		background-image: none;
+		padding-bottom: 30px;
+		
+	}
+	.text-for-socials {
+		padding-left: 100px;;
+	}
+	.for-offers {
+		height: 390px;
+		padding-top: 30px;
+		width: 100%;
+		background-image: none;
+	}
+	.percent {
+		font-size: 100px;
+		background-image: url('images/some-pic.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.some-pic-with-flowers {
+		display: none;
+	}
+	.info-header {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.some-info {
+		width: 95%;
+		height: 400px;
+		padding-top: 0;
+		padding-left: 20px;
+		padding-right: 0;
+		padding-top: 50px;
+		margin-left: 20px;
+		background-image: url('images/roses.png');
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+		
+		
+	}
+	.information {
+		color: white;
+		font-weight: 700;
+		width: 95%;
+		margin-right: 0;
+	}
+	.info-header {
+		color: white;
+	}
+	.about-details {
+		width: 98%;
+		background-image: url('images/details.png');
+		margin-top: 0;
+		background-position: -22px -130px;
+	}
+	
+	.some-info1 {
+		width: 98%;
+		background-image: url('images/looking.png');
+		margin-top: 20px;
+		background-position: -22px -93px;
+	}
+	.working-with-roses {
+		display: none;
+	}
+	
+	.service{
+		padding-top:0;
+	}
+	.for-some-details {
+		padding: 0;
+	}
+
+	.flower-bouquets {
+		padding: 0;
+	}
+	
+	.decorating-roses {
+		width: 200px;
+		margin:0;
+	}
+	.header-subscribe  {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.header-about {
+		font-size: 20px;
+		padding-top: 0;
+	}
+	.about-our-team  {
+		font-size: 15px;
+	}
+	.about {
+		padding-top: 20px;
+	}
+	.info1 {
+		margin-top: 30px;
+	}
+	
+	.by-numbers {
+		margin-left: 50px;
+	}
+	.we-by-nums {
+		margin-left: 50px;
+	}
+	.vid-pic-img{
+		width: 100%;
+		max-width: 400px;
+		height: 400px;
+		margin-left: 0;
+		object-fit: cover;
+		text-align: center;
+	}
+	
+	.for-some-details {
+		background-image: none;
+	}
+	.video {
+		background-image: none;
+	}
+	
+	.for-subscribe{
+		background-image: none;
+		padding: 30px;
+	}
+	.text-for-socials {
+		padding-left: 0;
+	}
+	.products-header{
+		margin-left: 20px;
+		font-size: 40px;
+		
+	}
+	.products-subtitle {
+		margin-left: 20px;
+		font-size: 20px;
+		
+	}
+}
+
+@media screen and (max-width: 700px){
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	.for-first-prod {
+		margin-left: 15%;
+		width: 70%;
+	}
+	.flower-bouquet {
+		background-size: cover;
+	}
+	.bouquet-desc {
+		width: 370px;
+	}
+	.heart {
+		padding-left: 280px;
+	}
+	.about-bouquet {
+		width: 400px;
+	}
+	
+
+	.text-for-socials {
+		font-size: 18px;
+	}
+	.details, .service{
+		width: 98%;
+
+	}
+	
+}
+@media screen and (max-width: 550px) {
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	.arrows {
+		margin-left: 150px;
+	}
+	.subtitle-video {
+		line-height: 50px;
+	}
+	.about-bouquet {
+		width: 320px;
+	}
+	.bouquet-desc {
+		width: 270px;
+	}
+	.heart{
+		padding-left: 210px;
+	}
+}
+@media screen and (max-width: 450px){
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	.for-first-prod {
+		width: 80%;
+		margin-left: 5%;
+	}
+	.about-bouquet{
+		width: 333px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	.about-us-by-numbers {
+		width: 100%;
+	}
+	.products-header, .products-subtitle {
+		margin-left: 0;
+		line-height: 50px;
+	}
+	.for-first-prod {
+		margin-left: 10%;
+
+	}
+	.some-info{
+		width: 90%;
+	}
+	.about-details,.some-info1 {
+		width: 95%;
+		margin-right: 0;
+	}
+	.flower-bouquet {
+		display: none;
+		
+	}
+	.information {
+		font-size: 20px;
+	}
+	
+	.flower-bouquets {
+		padding: 0;
+	}
+	.about-bouquet {
+		width: 100%;
+		
+		height: 400px;
+		background-image: url('images/bouquet1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bouquet-desc {
+		width: 250px;
+		color: white;
+	}
+	.heart {
+		padding-left: 230px;
+	}
+
+	.arrows {
+		margin-left: 90px;
+	}
+	.subtitle-video {
+		line-height: 40px;
+	}
+	.vid-pic-img {
+		width: 100%;
+		max-width: 300px;
+		height: 300px;
+		margin-left: 20px;
+	}
+	.video {
+		padding-bottom: 30px;
+	}
+	.percent {
+		margin-top: 30px;
+	}
+	.discount{
+		margin-top: 60px;
+	}
+	.some-pic-with-flowers {
+		display: none;
+	}
+	.service{
+		padding-top:0;
+	}
+	.for-some-details {
+		padding: 0;
+	}
+	form{
+		margin-left: 15px;
+	}
+	#name, #email, #message {
+		width: 250px;
+	}
+	.text-for-socials {
+		font-size: 12px;
+	}
+	.for-socials {
+		float: none;
+	}
+	.mobile-menu-container {
+		
+		right: 50px;
+	}
+		
+		
+}
+/* @media screen and (max-width: 280px){
+	.container {
+		width: 95%;
+		margin: auto; 
+	}
+	.sign-in {
+		margin-left: 10px;
+	}
+	.subtitle {
+		line-height: 50px;
+		color: white;
+	}
+	.large {
+		background-image: url('images/Place Your Image Here (Double Click to Edit)1.png');
+		background-repeat: no-repeat;
+	}
+	.some-text {
+		color: white;
+	}.no-border {
+		color: white;
+	}
+	.large-for-photo {
+		display: none;
+	}
+	.about-us-by-numbers {
+		width: 100%;
+		max-width: 250px;
+	}
+	.by-numbers, .we-by-nums {
+		margin-left: 70px;
+	}
+	.for-first-prod {
+		width: 100%;
+		max-width: 250px;
+		
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.about-bouquet {
+		width: 100%;
+		max-width: 250px;
+	}
+	.vid-pic-img {
+		margin-left: 0;
+		width: 100%;
+		max-width: 250px;
+	}
+	.for-offers {
+		margin-left: 0;
+		width: 100%;
+		max-width: 250px;
+	}
+	.discount {
+		margin-top: 30px;
+	}
+	.some-info {
+		margin-left: 0;
+		width: 100%;
+		max-width: 250px;
+	}
+	#name, #email, #message {
+		margin-left: 0;
+		width: 100%;
+		max-width: 250px;
+	}
+	.about {
+		padding-bottom: 30px;
+	}
+	.facebook {
+		display: block;
+	}
+} */
